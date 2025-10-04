@@ -7,10 +7,10 @@
 .page::before {
   content: "";
   position: absolute;
-  width: 100%;
-  height: 100%;
   inset: 0;
   z-index: -1;
+  width: 100%;
+  height: 100%;
   background-color: rgb(255 255 255 / 0.3);
 }
 
@@ -25,15 +25,15 @@
 }
 
 .page__heading {
-  margin: 0 auto;
   max-width: 739px;
-  font-size: 7.25vw;
+  margin: 0 auto;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
-  text-transform: uppercase;
-  text-align: center;
-  letter-spacing: 2.5px;
+  font-size: 7.25vw;
   line-height: 125px;
+  letter-spacing: 2.5px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .page__heading::after {
@@ -42,20 +42,20 @@
 
 .page__heading:hover::before {
   content: "На самом деле нет.\AВажнее — научиться ошибаться.";
-  white-space: pre;
-  font-size: 2.18vw;
-  font-weight: 400;
-  line-height: 100%;
-  text-align: left;
-  text-transform: none;
-  letter-spacing: 0;
   position: absolute;
-  z-index: 0;
   top: 100px;
   right: 130px;
-  background-color: #fff;
+  z-index: 0;
   border: 2px solid #000;
   border-radius: 20px;
   padding: 35px 52px;
   box-shadow: 0 8px 0 #000;
+  font-weight: 400;
+  font-size: 2.18vw;
+  line-height: 100%;
+  letter-spacing: 0;
+  text-align: left;
+  text-transform: none;
+  background-color: #fff;
+  white-space: pre;
 }
